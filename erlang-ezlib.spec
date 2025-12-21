@@ -16,6 +16,11 @@ Source0:    https://github.com/processone/ezlib/archive/%{version}.tar.gz
 Provides:   erlang-p1_zlib = %{version}-%{release}
 Obsoletes:  erlang-p1_zlib <= 1.0.1-2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: erlang-rebar
 BuildRequires: zlib-devel
 
